@@ -5,7 +5,7 @@ The GNAT documentation can be a little obtuse and finding a complete example on 
 
 Key things to take away:
   - use 'pragma Export(C)' for the subprograms you want exported
-    - if you don't declare the export name, you must lowercase the name when you call GetProcAddress() since this is the default C import style
+    - if you don't declare the export name, you must lowercase the name when you call GetProcAddress() since this is the default C export style
   - set the Library_Auto_Init property to true in the project file
   - set the Library_Interface to a unit declaring the subprograms to export
   - ensure the DLL, the ALI, and the spec file are present where you will be importing from
