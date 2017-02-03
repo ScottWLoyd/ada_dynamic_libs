@@ -1,0 +1,11 @@
+library project test_lib is
+
+	for Library_Dir use "lib";
+	for Object_Dir use "obj";
+	for Library_Name use "test";
+	for Library_Kind use "relocatable";
+	for Library_Interface use ("my_lib");
+	for Library_Auto_Init use "True";	
+	for Source_Files use ("my_lib.ads", "my_lib.adb");
+
+end test_lib;

@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\sloyd3\Documents\src\Ada_Libraries\test_libraries\test_load.gpr
+20170203145222
+[BOUND OBJECT FILES]
+C:\Users\sloyd3\Documents\src\Ada_Libraries\test_libraries\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\sloyd3\Documents\src\Ada_Libraries\test_libraries\obj\
+-LC:\Users\sloyd3\Documents\src\Ada_Libraries\test_libraries\obj\
+-LC:/gnat/2016/lib/gcc/i686-pc-mingw32/4.9.4/adalib/
+-static
+-static-libgcc
+C:/gnat/2016/lib/gcc/i686-pc-mingw32/4.9.4/adalib/libgnat.a
+-Wl,--stack=0x2000000

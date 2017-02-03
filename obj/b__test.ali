@@ -1,0 +1,97 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -gnatws
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U testmain%b		b__test.adb		f1a222af NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+
+U testmain%s		b__test.ads		340fc8c5 EE NE OO PK IL
+W system%s		system.ads		system.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
+D system.ads		20160516092930 2da59038 system%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D b__test.ads		20170203170354 19aa58fd testmain%s
+D b__test.adb		20170203170354 c1116887 testmain%b
+X 1 ada.ads
+16K9*Ada 19e8 9|6r6
+X 2 a-except.ads
+54K13*Exceptions 349e19 9|6w10
+X 4 system.ads
+37K9*System 200e11 8|3w6 9|94r39 100r26 112r23
+67M9*Address 9|94r46 100r33 112r30
+X 8 b__test.ads
+4K9*testmain 131l5 131e13 9|8b14 245l5 245t13
+6U14*testinit 7i<c,testinit>22 8r31 9|81b14 234l8 234t16
+10U14*testfinal 11i<c,testfinal>22 12r30 9|65b14 77l8 77t17
+14M9*Version_32 15r22 17r22
+15m4*u00001{14M9} 16r22
+17m4*u00002{14M9} 18r22
+X 9 b__test.adb
+10i4 E103{short_integer} 10m46 10r46 212r10 215m7 215r15
+11i4 E014{short_integer} 11m46 11r46 144r10 208r10 211m7 211r15
+12i4 E024{short_integer} 12m46 12r46 147r10 150m7 150r15
+13i4 E088{short_integer} 13m46 13r46 151r10 154m7 154r15
+14i4 E047{short_integer} 14m46 14r46 155r10 158m7 158r15
+15i4 E049{short_integer} 15m46 15r46 159r10 207m7 207r15
+16i4 E053{short_integer} 16m46 16r46 162r10 165m7 165r15
+17i4 E090{short_integer} 17m46 17r46 166r10 203r10 206m7 206r15
+18i4 E087{short_integer} 18m46 18r46 169r10 172m7 172r15
+19i4 E064{short_integer} 19m46 19r46 173r10 202m7 202r15
+20i4 E026{short_integer} 20m46 20r46 176r10 179m7 179r15
+21i4 E106{short_integer} 21m46 21r46 180r10 183m7 183r15
+22i4 E098{short_integer} 22m46 22r46 52m10 52r18 53r13 198r10 201m7 201r15
+23i4 E101{short_integer} 23m46 23r46 184r10 187m7 187r15
+24i4 E099{short_integer} 24m46 24r46 188r10 191m7 191r15
+25i4 E062{short_integer} 25m46 25r46 192r10 221m7 221r15
+26i4 E042{short_integer} 26m46 26r46 195r10 220m7 220r15
+27i4 E018{short_integer} 27m46 27r46 216r10 219m7 219r15
+28i4 E037{short_integer} 28m46 28r46 222r10 225m7 225r15
+29i4 E007{short_integer} 29m46 29r46 39m7 39r15 44r13 226r10 229r10 232m7
+. 232r15
+30i4 E002{short_integer} 30m46 30r46 233m7 233r15
+32a4 Local_Priority_Specific_Dispatching{string} 132r9
+33a4 Local_Interrupt_States{string} 135r27
+35b4 Is_Elaborated{boolean} 71r14 74m7 121r10 124m7
+37U14 finalize_library 37b14 63l8 63t24 76s7
+41U20*F1 42b<ada,ada__text_io__finalize_spec>30 45s13
+49U20*F2 50b<ada,system__file_io__finalize_body>30 54s13
+58U20*Reraise_Library_Exception_If_Any 59b<ada,__gnat_reraise_library_exception_if_any>33
+. 61s10
+67U17*Runtime_Finalize 68b<c,__gnat_runtime_finalize>25 75s7
+79P9 No_Param_Proc 118r34
+82i7*Main_Priority{integer} 83m25 83r25 125m7
+84i7*Time_Slice_Value{integer} 85m25 85r25 126m7
+86e7*WC_Encoding{character} 87m25 87r25 127m7
+88e7*Locking_Policy{character} 89m25 89r25 128m7
+90e7*Queuing_Policy{character} 91m25 91r25 129m7
+92e7*Task_Dispatching_Policy{character} 93m25 93r25 130m7
+94m7*Priority_Specific_Dispatching{4|67M9} 95m25 95r25 131m7
+96i7*Num_Specific_Dispatching{integer} 97m25 97r25 133m7
+98i7*Main_CPU{integer} 99m25 99r25 134m7
+100m7*Interrupt_States{4|67M9} 101m25 101r25 135m7
+102i7*Num_Interrupt_States{integer} 103m25 103r25 136m7
+104i7*Unreserve_All_Interrupts{integer} 105m25 105r25 137m7
+106i7*Detect_Blocking{integer} 107m25 107r25 138m7
+108i7*Default_Stack_Size{integer} 109m25 109r25 139m7
+110i7*Leap_Seconds_Support{integer} 111m25 111r25 140m7
+112m7*Bind_Env_Addr{4|67M9} 113m25 113r25
+115U17*Runtime_Initialize 115>37 116b<c,__gnat_runtime_initialize>25 142s7
+115i37 Install_Handler{integer}
+118p7*Finalize_Library_Objects{79P9} 119m25 119r25
+
