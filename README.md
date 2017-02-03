@@ -9,3 +9,4 @@ Key things to take away:
   - set the Library_Auto_Init property to true in the project file
   - set the Library_Interface to a unit declaring the subprograms to export
   - ensure the DLL, the ALI, and the spec file are present where you will be importing from
+    - scratch this. The ALI and spec file are only needed for compile-time linking
